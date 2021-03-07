@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tommy Hilfiger | Spring 2017</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/imgs/favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://vjs.zencdn.net/7.10.2/video-js.css" rel="stylesheet" />
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <!-- header and nav -->
+    <header class="whole-header-container">
+        <section class="upper flex max-width">
+            <nav class="left">
+                <ul class="flex">
+                    <li>UK/GBP (£)</li>
+                    <li><hr></li>
+                    <li>STORES</li>
+                    <li><hr></li>
+                    <li>CUSTOMER SERVICE</li>
+                </ul>
+            </nav>
+            <nav class="medium">
+                <p class="italic">Enjoy free delivery on all orders over £50</p>
+            </nav>
+            <nav class="right">
+                <ul class="flex">
+                    <li>NEWSLETTER SIGN UP</li>
+                    <li><hr></li>
+                    <li>SIGN IN / REGISTER</li>
+                    <li><hr></li>
+                    <li><img src="assets/icons/cart.svg" alt="shopping-cart"></li>
+                </ul>
+            </nav>
+        </section>
+        <hr>
+        <section class="down flex max-width">
+            <div class="logo left">
+                <img src="assets/imgs/logo.png" alt="logo">
+            </div>
+            <nav class="medium relative">
+                <ul class="flex">
+                    <li>WOMEN</li>
+                    <li>MEN</li>
+                    <li>KIDS</li>
+                    <li>LABELS</li>
+                    <li>SALE</li>
+                </ul>
+            </nav>
+            <div class="search right flex">
+                <input type="text" placeholder="Search">
+                <img src="assets/icons/search.svg" alt="search">
+            </div>
+        </section>
+        <hr>
+    </header>
+
+    <!-- main content -->
+    <main class="whole-main-container max-width">
+        <section class="hero-section max-width relative flex">
+            <div class="text-container">
+                <div class="pre-title-container relative">
+                    <span class="pre-title relative">24/7 LIVE.</span>
+                </div>
+                <h1 class="flex first absolute">
+                    <span>L</span>
+                    <span class="heart">
+                        <img class="relative heart-img" src="assets/icons/heart.svg" alt="heart"></span>
+                    <span>V</span>
+                    <span>E</span>
+                    <span>.</span>
+                </h1>
+                <h1 class="second flex absolute">
+                    <span>L</span>
+                    <span>.</span>
+                    <span>A</span>
+                    <span>.</span>
+                </h1>
+                <p class="season">SPRING<span><br>2017</span></p>
+                <h4 class="collab absolute">WITH ANWAR HADID & SOPHIA RICHIE</h4>
+                <h6 class="leyend absolute">Engineered for perfect form and exceptional fit - whatever you do in them</h6></p>
+            </div>
+            <div class="img-container relative"></div>
+            <img src="assets/imgs/img-arm.png" alt="" class="guy-arm absolute">
+        </section>
+        <section class="video-container relative">
+            <video
+                id="my-video"
+                class="video-js"
+                controls
+                preload="auto"
+                poster="assets/imgs/video-poster.jpg"
+                data-setup="{}"
+            >
+                <source src="assets/imgs/test-video.mp4" type="video/mp4"/>
+            </video>
+        </section>
+    </main>
+
+    <script src="JS/app.js"></script>
+    <script src="https://vjs.zencdn.net/7.10.2/video.min.js"></script>
+</body>
+</html>
